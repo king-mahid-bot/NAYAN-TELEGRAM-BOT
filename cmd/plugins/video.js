@@ -39,10 +39,6 @@ module.exports.start = async ({ event, api }) => {
       { text: 'Islam', callback_data: '/video/islam' }
     ],
     [
-      { text: 'Horny', callback_data: '/video/horny' },
-      { text: 'Hot', callback_data: '/video/hot' }
-    ],
-    [
       { text: 'Random', callback_data: '/video/mixvideo' }
     ]
   ];
